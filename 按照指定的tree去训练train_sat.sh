@@ -1,6 +1,21 @@
 先各自训练gmm tri3
 然后生成对齐。
 
+在 train_sat时候会生成对齐。根据对齐
+统一tree
+再次训练
+
+合并对齐
+
+combine data
+
+combine alignment
+
+steps/combine_ali_dirs.sh --nj 32 data/train_aug/mfcc-pitch/ exp/tri4_ali_combined ../id_appen/exp/tri4a/ali_train/ ../id_youtube/exp/tri4a/ali_train/ ../id_huang/exp/tri4a/ali_train/
+
+
+
+
 
 
 #!/usr/bin/env bash
