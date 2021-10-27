@@ -12,7 +12,7 @@ combine data
 combine alignment
 
 steps/combine_ali_dirs.sh --nj 32 data/train_aug/mfcc-pitch/ exp/tri4_ali_combined ../id_appen/exp/tri4a/ali_train/ ../id_youtube/exp/tri4a/ali_train/ ../id_huang/exp/tri4a/ali_train/
-
+steps/combine_lat_dirs.sh --nj 32 data/train_aug/mfcc-pitch/ exp/tri4_ali_combined ../id_appen/exp/tri4a/lat_train/ ../id_youtube/exp/tri4a/lat_train/ ../id_huang/exp/tri4a/lat_train/
 
 
 
